@@ -1,0 +1,2 @@
+Metric,Morans_I,Expected_I,Variance_I,Z_Score,P_Value,Permutations,Spatial_Weights,Inference
+Global Moran's I Statistic,0.2115,-0.0083,0.002828,4.205,0.001,999,k=5 KNN (Row-standardized),Statistically significant spatial clustering (p < 0.001)

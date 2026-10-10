@@ -1,0 +1,26 @@
+\begin{table}[h!]
+\centering
+\small
+\setlength{\tabcolsep}{4.5pt}
+\caption{Spatial Econometric Robustness: Non-Parametric Conley (1999) HAC Standard Error Expansion}
+\label{tab:conley_se_expansion}
+\begin{tabularx}{\textwidth}{X r r r r r r}
+\toprule
+\textbf{Independent Regressor} & \textbf{Point Est.} & \textbf{OLS SE} & \textbf{HC1 SE} & \textbf{Conley 25km} & \textbf{Conley 50km} & \textbf{Conley 75km} \\
+ & ($\beta$) & (Unadjusted) & (Robust) & ($1.45\times$) & ($1.84\times$) & ($1.99\times$) \\
+\midrule
+Intercept & 0.3043$^{***}$ & 0.0428 & 0.0361 & 0.0472 & 0.0504 & 0.0480 \\
+Delta\_P\_c (Intensity Deficit) & 0.0099$^{***}$ & 0.0015 & 0.0013 & 0.0015 & 0.0015 & 0.0015 \\
+Dist\_km\_c (Track Proximity) & -0.0054$^{***}$ & 0.0003 & 0.0003 & 0.0004 & 0.0005 & 0.0005 \\
+DeltaP\_x\_Dist\_c (Radial Attenuation) & -0.0003$^{***}$ & 0.0000 & 0.0000 & 0.0000 & 0.0000 & 0.0000 \\
+ln\_Pop\_Dens (Exposure Control) & 0.0021 & 0.0078 & 0.0060 & 0.0073 & 0.0070 & 0.0065 \\
+\midrule
+\multicolumn{7}{l}{\textbf{Panel B: Spatial Autocorrelation Expansion Ratios (Distance Decay Parameter)}} \\
+\midrule
+Cutoff 25km (25 km) & \multicolumn{2}{l}{Bartlett Triangular} & 0.000383 & $1.45\times$ & $t = -14.031$ & $p < 0.001$ \\
+Cutoff 50km (50 km) & \multicolumn{2}{l}{Bartlett Triangular} & 0.000485 & $1.84\times$ & $t = -11.081$ & $p < 0.001$ \\
+Cutoff 75km (75 km) & \multicolumn{2}{l}{Bartlett Triangular} & 0.000523 & $1.99\times$ & $t = -10.271$ & $p < 0.001$ \\
+\bottomrule
+\multicolumn{7}{X}{\footnotesize $^{***}p < 0.001$, $^{**}p < 0.01$, $^{*}p < 0.05$. Non-parametric Conley (1999) spatial HAC standard errors estimated via Bartlett triangular distance kernel. Expansion ratio computed relative to unadjusted OLS standard error. Sample: $N=122$ metric cells across Jamaica.} \\\\
+\end{tabularx}
+\end{table}

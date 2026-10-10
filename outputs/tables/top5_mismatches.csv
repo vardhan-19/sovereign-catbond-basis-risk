@@ -1,0 +1,11 @@
+cell_id,parish,mismatch_type,Damage_Ratio,hat_y_frac,residual_frac,Dist_km,Delta_P,total_buildings,damaged_buildings,primary_physical_driver
+1,Hanover,Severe Under-Coverage,0.5882,0.3453,0.2429,3.4,101.76,17,10,Coastal elevated headland bluff exposure
+14,Westmoreland,Severe Under-Coverage,0.7857,0.5859,0.1998,9.41,114.8,42,33,Right-front eyewall sector and coastal surge funneling
+20,St. Elizabeth,Severe Under-Coverage,0.7963,0.5982,0.1981,15.71,117.29,54,43,Landfall impact corridor and unreinforced roof failures
+25,St. Elizabeth,Severe Under-Coverage,0.8605,0.704,0.1564,7.63,120.26,43,37,Black River direct eyewall landfall zone
+17,St. James,Severe Under-Coverage,0.52,0.376,0.144,32.3,109.48,25,13,Montego Bay river valley topographic wind funneling
+38,Manchester,Windfall Over-Coverage,0.1875,0.611,-0.4235,11.96,116.49,16,3,Don Figuerero mountain ridge wind field deflection
+71,Clarendon,Windfall Over-Coverage,0.1282,0.3398,-0.2116,37.75,111.85,39,5,Leeward plain reinforced concrete construction
+70,Clarendon,Windfall Over-Coverage,0.175,0.3632,-0.1882,30.58,110.65,40,7,Central karst hill topographic sheltering
+63,Clarendon,Windfall Over-Coverage,0.2344,0.3808,-0.1464,38.12,114.34,64,15,Inland agricultural basin topographic attenuation
+22,St. James,Windfall Over-Coverage,0.3279,0.4382,-0.1104,31.24,113.26,61,20,Cockpit Country karst circulation disruption

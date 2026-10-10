@@ -1,0 +1,20 @@
+Category,Metric,Value,Notes
+Overall Accuracy,Sample Grid Cells (N),122,10 km x 10 km filtered sample cells
+Overall Accuracy,Mean Absolute Error (MAE - Unweighted),0.0583,5.83% unweighted spatial cell average tracking error
+Overall Accuracy,Mean Absolute Error (MAE - Exposure Weighted),0.0533,5.33% building exposure-weighted tracking error
+Overall Accuracy,Root Mean Squared Error (RMSE - Unweighted),0.0830,8.30% unweighted standard error of tracking
+Overall Accuracy,Root Mean Squared Error (RMSE - Exposure Weighted),0.0731,7.31% building exposure-weighted standard error
+Overall Accuracy,Mean Residual (Observed - Predicted),-0.0007,Zero-mean calibration of Fractional Response QMLE
+Overall Accuracy,Median Residual,+0.0016,Symmetric error distribution across cells
+Overall Accuracy,Residual Standard Deviation,0.0833,Dispersion of unhedged basis risk across grid
+Extreme Tracking Gaps,Maximum Single-Cell Under-Coverage,+0.2429,+24.3 percentage point unhedged damage gap
+Extreme Tracking Gaps,Maximum Single-Cell Windfall Over-Coverage,-0.4235,-42.3 percentage point formula over-allocation
+Operational Regime: Severe Under-Coverage,Cell Count & Share,13 (10.66%),Covering 1026.6 km2 (9.62%)
+Operational Regime: Severe Under-Coverage,Building Exposure Count & Share,530 (9.18%),303 damaged (15.59% of national total)
+Operational Regime: Severe Under-Coverage,Damage Rates & Regime Residual,Obs: 56.9% | Pred: 42.7%,Mean Residual = +0.1423
+Operational Regime: Concordant Alignment,Cell Count & Share,101 (82.79%),Covering 9031.5 km2 (84.65%)
+Operational Regime: Concordant Alignment,Building Exposure Count & Share,4899 (84.86%),1553 damaged (79.93% of national total)
+Operational Regime: Concordant Alignment,Damage Rates & Regime Residual,Obs: 30.5% | Pred: 31.1%,Mean Residual = -0.0054
+Operational Regime: Windfall Over-Coverage,Cell Count & Share,8 (6.56%),Covering 610.9 km2 (5.73%)
+Operational Regime: Windfall Over-Coverage,Building Exposure Count & Share,344 (5.96%),87 damaged (4.48% of national total)
+Operational Regime: Windfall Over-Coverage,Damage Rates & Regime Residual,Obs: 25.6% | Pred: 43.1%,Mean Residual = -0.1746

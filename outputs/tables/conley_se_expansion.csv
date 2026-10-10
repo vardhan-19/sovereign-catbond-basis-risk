@@ -1,0 +1,4 @@
+Bandwidth,Cutoff_km,Kernel,Target_Variable,OLS_SE,Conley_SE,Expansion_Ratio,Conley_t_stat,Conley_p_value,Hypothesis_Stability
+25km,25.0,Bartlett Triangular,Dist_km (Track Proximity),0.000264,0.000383,1.45,-14.031,0.0,Stable (p < 0.001)
+50km,50.0,Bartlett Triangular,Dist_km (Track Proximity),0.000264,0.000485,1.84,-11.081,0.0,Stable (p < 0.001)
+75km,75.0,Bartlett Triangular,Dist_km (Track Proximity),0.000264,0.000523,1.99,-10.271,0.0,Stable (p < 0.001)

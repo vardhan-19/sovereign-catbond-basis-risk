@@ -1,0 +1,15 @@
+parish,cell_count,total_land_area_km2,total_buildings,damaged_buildings,predicted_damaged_buildings,observed_damage_ratio,predicted_damage_ratio,mean_residual,unweighted_mean_residual,fair_damage_allocation_usd_m,formula_payout_allocation_usd_m,dollar_basis_risk_usd_m,basis_risk_status
+Hanover,6,392.08,204,88,74.9,0.4314,0.3672,0.0641,0.0858,6.79,5.78,-1.01,Net Deficit (Under-Covered)
+St. Elizabeth,12,1149.36,622,435,408.3,0.6994,0.6565,0.0429,0.0423,33.58,31.52,-2.06,Net Deficit (Under-Covered)
+St. Mary,7,615.22,310,49,37.3,0.1581,0.1205,0.0376,0.0361,3.78,2.88,-0.9,Net Deficit (Under-Covered)
+St. James,6,541.88,314,140,130.9,0.4459,0.4168,0.0291,0.0449,10.81,10.1,-0.7,Net Deficit (Under-Covered)
+Westmoreland,9,725.18,388,194,184.5,0.5,0.4755,0.0245,0.0344,14.98,14.24,-0.73,Net Deficit (Under-Covered)
+Portland,10,828.28,419,38,28.6,0.0907,0.0684,0.0223,0.0173,2.93,2.21,-0.72,Net Deficit (Under-Covered)
+St. Andrew,3,298.82,163,25,22.9,0.1534,0.1405,0.0129,0.0117,1.93,1.77,-0.16,Concordant Alignment
+St. Ann,13,1166.13,669,179,179.2,0.2676,0.2678,-0.0003,-0.0027,13.82,13.83,0.01,Concordant Alignment
+St. Catherine,13,1198.74,670,147,149.0,0.2194,0.2224,-0.003,0.0013,11.35,11.5,0.15,Concordant Alignment
+Trelawny,11,995.46,562,229,231.7,0.4075,0.4122,-0.0048,-0.0098,17.68,17.89,0.21,Concordant Alignment
+St. Thomas,9,778.58,387,22,28.0,0.0568,0.0724,-0.0155,-0.0222,1.7,2.16,0.46,Concordant Alignment
+Manchester,11,904.97,477,236,256.4,0.4948,0.5375,-0.0428,-0.0698,18.22,19.79,1.58,Net Surplus (Windfall)
+Kingston,1,27.61,18,1,2.4,0.0556,0.1322,-0.0767,-0.0767,0.08,0.18,0.11,Net Surplus (Windfall)
+Clarendon,11,1046.64,570,160,208.9,0.2807,0.3664,-0.0857,-0.0891,12.35,16.12,3.77,Net Surplus (Windfall)

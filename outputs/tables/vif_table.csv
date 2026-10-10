@@ -1,0 +1,6 @@
+Regressor,Raw_Specification_VIF,Mean_Centered_VIF,Collinearity_Reduction_Pct,Threshold_Check (< 2.50)
+Intercept,1476.511,34.015,N/A,PASSED
+Delta_P (Intensity),3.339,1.176,64.8,PASSED
+Dist_km (Proximity),375.023,1.415,99.6,PASSED
+Interaction Term,359.508,1.256,99.7,PASSED
+ln_Pop_Dens (Exposure),1.126,1.126,0.0,PASSED
